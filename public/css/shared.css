@@ -1,0 +1,67 @@
+body {
+  padding     : 0;
+  margin      : 0;
+  color       : #282828;
+  font-family : helvetica, arial, sans-serif;
+  font-size   : 18px;
+  line-height : 32px;
+}
+ 
+.header {
+  position   : relative;
+  background : #282828 url("/img/Rhenova-header-achtergrond.jpg") no-repeat;
+  background-size:cover;
+  height     : 240px;
+  margin     : 0 0 200px 0;
+}
+ 
+.header img {
+  position      : absolute;
+  width         : 120px;
+  height        : 120px;
+}
+ 
+.header img.logo{
+  position   : relative;
+  float 	 : left;
+  margin	 : 55px;
+}
+.header img.logo_sn{
+  position   : relative;
+  float 	 : right;
+  margin	 : 55px;
+}
+.navigation {
+  position   : absolute;
+  width      : 80%;
+  top		 : 208px;
+  text-align : center;
+  background : white;
+  padding	 : 17px;
+  margin-left: 10%;
+  border-radius: 27px;
+  text-align : center;
+}
+ 
+.navigation a {
+  padding         : 20px 0 5px 0;
+  margin          : 0 10px 15px 10px;
+  font-size       : 20px;
+  color           : #333;
+  font-family     : helvetica, arial, sans-serif;
+  text-decoration : none;
+  text-transform  : uppercase;
+  border-bottom   : 3px solid #fff;
+}
+ 
+.navigation a:hover, .navigation a.active {
+  color         : #228E47;
+  border-bottom : 3px solid #228E47;
+}
+ 
+.content {
+  margin     : 0 auto;
+  width      : 700px;
+  padding    : 0 0 50px 0;
+  text-align : justify;
+}
